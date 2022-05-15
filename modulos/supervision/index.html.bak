@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>supervisiones</title>
+  </head>
+  <body><br>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td colspan="2">Código: RT-R-031</td>
+          <td rowspan="2" style="width: 326.583px;"><b>SUPERVISION TECNICA AL
+              PROCESO DE REVISION TECNICO MECANICA Y EMISIONES CONTAMINANTES
+              (Pesado - Liviano)</b><br>
+          </td>
+          <td rowspan="2" style="width: 158.917px;"> <img src="img/logo_cedas.jpeg"
+              width="100%"> </td>
+        </tr>
+        <tr>
+          <td style="width: 155.667px;">Fecha:2018-08-11</td>
+          <td style="width: 104.833px;">Versión: 2</td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td><b>CALIFICACION</b></td>
+          <td><b>CRITERIOS DE CALIFICACION</b></td>
+        </tr>
+        <tr>
+          <td>
+            <center><b>1</b></center>
+          </td>
+          <td>La actividad no se ejecuta de acuerdo a los requisitos normativos
+            aplicables&nbsp;&nbsp; y procedimientos internos de la organización<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 77px;">
+            <center><b>3</b></center>
+          </td>
+          <td style="width: 681px;">La actividad es realizada de acuerdo a los
+            requisitos normativos aplicables&nbsp; y procedimientos internos de
+            la organización<br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <center><b>5</b></center>
+          </td>
+          <td>La actividad es realizada de acuerdo a los requisitos normativos
+            aplicables&nbsp; y&nbsp; sobrepasa los procedimientos internos de la
+            organización<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td><b>Fecha:</b></td>
+          <td><b>Hora:</b></td>
+        </tr>
+        <tr>
+          <td><b>Director Técnico:</b></td>
+          <td><b>Técnico:</b></td>
+        </tr>
+        <tr>
+          <td style="width: 818.45px;"><b>Firma:</b></td>
+          <td style="width: 813.55px;"><b>Firma:</b></td>
+        </tr>
+        <tr>
+          <td><b>Placa:</b></td>
+          <td>
+            <b>Categoria</b>
+            <select name="categoria">
+              <option></option>
+              <option>LIVIANO</option>
+              <option>PESADO</option>              
+            </select>
+            <b>Tipo</b></td>
+          	<select name="TIPO">
+              <option></option>  
+              <option>DOBLE TROQUE</option>
+              <option>VOLCO</option>
+              <option>CUATRO MANOS</option>
+              <option>TRACTO CAMION</option>
+              <option>BUS</option>
+              <option>BUS TANDEM</option>
+              <option>AEROVAN</option>
+              <option>MIXER</option>
+              <option>GRUA SOBRECAMION</option>
+              <option>AUTO BOMBA</option>
+              <option>CAMION GRUA PLATAFORMA</option>
+              <option>MANLEEF</option>
+              <option>CAMION DE ENSEÑANZA</option>
+              <option>CARROS DE BOMBEROS</option>
+              <option>AMBULANCIA</option>
+              <option>AUTOMOVIL</option>
+              <option>CAMIONETA</option>
+              <option>CAMPERO</option>
+              <option>AMBULANCIA</option>
+              <option>SUV-TAXI</option>
+              <option>CARROS FUNEBRES</option>
+              <option>ENSEÑANZA</option>
+              <option>MICROBUS</option>
+              <option>MICROBUS ESCOLAR</option>            
+          </select>        
+        </tr>
+        <tr>
+          <td colspan="2"><b>Observaciones:</b></td>
+        </tr>
+        <tr>
+          <td colspan="2"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table style="width: 100%;" border="1">
+      <tbody>
+        <tr>
+          <td rowspan="28">
+            <center> <b>V<br>
+                I<br>
+                S<br>
+                U<br>
+                A<br>
+                L</b></center>
+          </td>
+          <td>
+            <center><b>CRITERIOS</b></center>
+          </td>
+          <td colspan="2">
+            <center><b>Calificación</b></center>
+          </td>
+        </tr>
+        <tr>
+          <td>5. El vehículo cumple las condiciones de&nbsp;&nbsp; PRE-REVISION<br>
+          </td>
+          <td colspan="2"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>El vehículo es trasladado de forma adecuada al área de REVISION<br>
+          </td>
+          <td colspan="2"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 1445.65px;">Uso adecuado de elementos de protección
+            personal (seguridad)<br>
+          </td>
+          <td colspan="2" style="width: 124.733px;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubicación adecuada del vehículo en el foso (Centrado y acorde a
+            las líneas guía)<br>
+          </td>
+          <td colspan="2"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>NTC 5385 4.16.1.6..Utilización correcta y oportuna de la TABLET
+            (Registro Inmediato de los defectos y fotos)<br>
+          </td>
+          <td colspan="2"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Utilización de la linterna. (Uso)</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Movimientos cortos y repetidos del detector de holguras
+            (electro-bomba) </td>
+          <td colspan="3"> <br <="" td="">
+          </td>
+        </tr>
+        <tr>
+          <td>Uso y manejo adecuado del profundímetro (puesta a cero, ubicación
+            y registro ) </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Uso y manejo del vehículo como propiedad del cliente </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.1.1 Carrocería y Chasís </td>
+          <td colspan="3"><br <br="">
+          </td>
+        </tr>
+        <tr>
+          <td>6.1.2 Limpiaparabrisas </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.1.3 peldaños </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.1.4 Retrovisores </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.1.5. Soporte Exterior de La Rueda de Repuesto</td>
+          <td style="height: 20px;" colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.1.6 Vidrios </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.1.7 Dispositivos de retención de la carga</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.2.1 Habitáculo del conductor y pasajeros </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.2.2 Cinturones de seguridad y sus anclajes </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.2.3 Dispositivo de control de velocidad </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 19px;">6.3.1 Dispositivos sonoros no permitidos </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.3.2 Bocina, pito o dispositivo acústico </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.3.2 Bocina, pito o dispositivo acústico </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.4.1 Alumbrado y señalización (mediante inspección sensorial se
+            busca detectar)<br>
+          </td>
+          <td colspan="3"><br>
+            <b <="" td=""> </b></td>
+        </tr>
+        <tr>
+          <td>6.5. Salida de Emergencia, (Res. 5666 del 2003) </td>
+          <td colspan="3"><br>
+            <b <="" td=""> </b></td>
+        </tr>
+        <tr>
+          <td>6.6. Emisiones Contaminantes (NTC 4231 Diésel), (NTC 4983
+            Gasolina) Y (Res. 910 del 2008) </td>
+          <td colspan="3"><br>
+            <br <="" td="">
+          </td>
+        </tr>
+        <tr>
+          <td>6.6.3. Tubo de descarga horizontal (superior a 3 ton ó 19
+            pasajeros), <br>
+            Debe 3 metros del suelo en modelos anterior 2001 </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Roturas o perforaciones en el sistema de escape </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td colspan="4"><b>6.7. Sistema de Frenos</b><br>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="24"><br>
+          </td>
+          <td>6.7.1. Pedal<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.2. Guayas<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.3. Bomba de vacío (Booster) o compresor y anclajes<br>
+            (Aplica para vehículos con circuito neumático para el sistema de
+            frenado)<br>
+          </td>
+          <td colspan="3
+                       "><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.4. Válvula de regulación del freno de estacionamiento (parqueo
+            o de mano)<br>
+            Aplica para vehículos con circuito neumático para el sistema de
+            frenado)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.5. Válvulas de frenado<br>
+            (Aplica para vehículos con circuito neumático para el sistema de
+            frenado)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.6.Tanques o depósitos de presión<br>
+            (Aplica para vehículos con circuito neumático para el sistema de
+            frenado)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.7. Acoplamiento de los frenos de la unidad tractora<br>
+          </td>
+          <td style="height: 19px;" colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.8. Servofreno (Booster). Cilindro de mando (sistemas
+            hidráulicos)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.9. Tubos y mangueras de frenos<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="height: 19px;">6.7.10. Cilindros del sistema de frenado<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.11. Válvula que permite o limite el frenado y válvula censora
+            o compensadora de carga o la que haga sus veces (de estar presente)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.7.12. Condiciones a medir (presión de llantas, labrado,
+            antibloqueo, control de tracción, tracción integral mecánica.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.8. Suspensión<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.8.1. Mediante inspección sensorial y detector de holguras<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.10.1. Dirección<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.10.2. Uso de equipo de desviación Lateral<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.11 Rines y Llantas<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.12. Motor<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.13. Sistema de Combustible<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>6.14. Transmisión<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Placas En vehículos de servicio público (resolución 2999 del 2003)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Uso obligatorio de Cintas Retrarreflectivas (Resolución 3246 del
+            2018)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Requisitos vehículos de Enseñanza NTC 5375 ANEXO a (Res 3245 del
+            2009)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="4"><br>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="24">
+            <center><b>F<br>
+                R<br>
+                E<br>
+                N<br>
+                O<br>
+                S<br>
+              </b></center>
+          </td>
+          <td>Alinea correctamente el vehículo usando las líneas guía<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Detiene totalmente el vehículo al borde del plato de alineación<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Inicia y configura el aplicativo de software de manera adecuada<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Pasa sobre el plato de alineación a velocidad no superior a 2KM/h
+            <br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Suelta el volante durante el paso sobre el plato de alineación<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Graba y envía la prueba de alineación mediante el adecuado uso del
+            control remoto<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que la presión de llantas sea adecuada para la prueba<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verificar que el labrado cumple para iniciar la prueba de frenos
+            (1.6.mm hasta 3.5 ton y 2mm después)<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que no exista carga en el frenómetro al dar inicio al
+            programa<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que los frenos estén secos<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Inicia y configura el aplicativo de software de manera adecuada<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza la prueba de frenos con el motor encendido para garantizar
+            que el pulmón del servofreno esté cargado.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ingresa al frenómetro de manera controlada, protegiendo la
+            propiedad del cliente y el equipo<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica el eje delantero del vehículo centrado en los rodillos<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que la presión del aire en el manómetro del vehículo
+            (mínimo 90 PSI). Para el caso de los frenos de aire.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>La pisada de frenado es lenta, continua y hasta que el pedal
+            llegue&nbsp; al final de su recorrido<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Graba y envía la prueba del eje delantero de manera correcta<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ingresa el segundo eje del vehículo al frenómetro de manera
+            controlada, protegiendo la propiedad del cliente y el equipo<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica el eje trasero del vehículo centrado en los rodillos<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>La pisada de frenado es lenta, continua y hasta que el pedal
+            llegue&nbsp; al final de su recorrido<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Graba y envía la prueba del eje delantero de manera correcta<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza la prueba del freno de parqueo, activando el freno de
+            parqueo muy lentamente y aumentando la fuerza aplicada hasta que la
+            palanca ó el pedal lleguen al final de su recorrido<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Nota: Cuando se trata de un vehículo con tracción integral
+            permanente 4WD, el técnico configura y utiliza el equipo de manera
+            adecuada.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Grabas y envía toda la prueba de manera correcta<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="12">
+            <center> <b> L<br>
+                U<br>
+                C<br>
+                E<br>
+                S<br>
+              </b> </center>
+          </td>
+          <td colspan="4">6.4.2. LUXOMETRO</td>
+        </tr>
+        <tr>
+          <td>Verifica que los faros se encuentren limpios y secos previo inicio
+            de la prueba </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica el vehículo de forma adecuada paralela y perpendicularmente
+            utilizando las líneas guía.</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica el luxómetro a la distancia establecida por el fabricante
+            utilizando el flexómetro de manera correcta </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que el luxómetro esté nivelado mediante la observación
+            del nivel.</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica la simetría utilizando el haz de luz roja y hace
+            correctamente los ajustes necesarios &nbsp;&nbsp;&nbsp; </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Hace uso correcto y configura adecuadamente el software para la
+            realización de la prueba </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Incluye de ser necesario la cantidad de luces adicionales con que
+            cuente el vehículo que pueden estar encendidas al mismo tiempo y que
+            pueden afectar la sumatoria total de luces</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que el motor esté encendido, y el vehículo esté en neutro
+            y con el freno de parqueo activado </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica correctamente la luz láser en el centro de la farola y
+            centro del bombillo </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza la prueba de luces de acuerdo a las instrucciones del
+            aplicativo</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Registra los resultados de la prueba adecuadamente <br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="7">
+            <center> <b> S<br>
+                U<br>
+                S<br>
+                P<br>
+                E<br>
+                N<br>
+                S<br>
+                I<br>
+                O<br>
+                N<br>
+              </b> </center>
+            <br>
+          </td>
+          <td colspan="4"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que el equipo no presente carga previa realización de la
+            prueba.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Alinea el vehículo paralelamente a las líneas guía<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza correcto ingreso y configuración del aplicativo para
+            realización de la prueba. <br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica el vehículo sobre las placas de manera correcta&nbsp; <br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Sigue las instrucciones de ejecución de la prueba del software<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Registra y envía los resultados de la prueba de manera adecuada en
+            el software<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="13">
+            <center> <b> G<br>
+                A<br>
+                S<br>
+                E<br>
+                S<br>
+                <br>
+                4<br>
+                9<br>
+                8<br>
+                3<br>
+              </b> </center>
+          </td>
+          <td colspan="4"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza limpieza del equipo de manera adecuada </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ingresa al aplicativo y verifica en el mismo el estado de puesta a
+            cero, test de fugas y calibración </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que el termo higrómetro esté en línea y se verifiquen las
+            condiciones ambientales (temperatura 5 C° Y 55C°) y humedad Relativa
+            (30% y 90%) </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ejecuta auto-cero del equipo verificando que todo el conjunto de
+            mangueras, trampa y sonda toma de muestra se encuentren debidamente
+            conectados </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ejecuta el test de fugas cuando es necesario de acuerdo a las
+            instrucciones<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza correctamente la calibración con gas asegurando que se
+            utilicen las pipetas registradas y siguiendo las instrucciones del
+            aplicativo y demás contenidas en procedimientos<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica el estado de sondas y filtros<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Posiciona el vehículo de forma adecuada, en neutro y con freno de
+            parqueo<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Enciende las luces del vehículo y verifica que ningún otro
+            elemento o equipo del vehículo que consuma energía esté encendido.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Una vez “capturada” la placa del vehículo, realiza una inspección
+            previa del vehículo y mediante la lista de chequeo desplegada
+            verifica las condiciones de realización de la prueba.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica de forma correcta los sensores de relanti rpm (400
+            r/min-1100r/min (+/-150) en crucero a 2500 rpm +/-250)&nbsp; y
+            temperatura mínima (45 C° bloque ó 60 C° aceite en puntos adecuados
+            del vehículo)<br>
+          </td>
+          <td colspan="3"><br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza de manera correcta la prueba de gases siguiendo las
+            instrucciones del software </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="15">
+            <center> <b> O<br>
+                P<br>
+                A<br>
+                C<br>
+                I<br>
+                D<br>
+                A<br>
+                D<br>
+                <br>
+                NTC<br>
+                4231 </b> </center>
+          </td>
+          <td>Verifica que el termo higrómetro esté en línea y se verifiquen las
+            condiciones ambientales (temperatura 5 C° y 55C°) y humedad Relativa
+            menor a 90%) </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza limpieza del equipo de manera adecuada </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica precalentamiento del opacímetro </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica de forma correcta los sensores de rpm y temperatura 50C°
+            optima, si menor no debe variar 10C°inicio y fin en (puntos
+            adecuados del vehículo) </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Verifica que el termo higrómetro esté en línea y se verifiquen las
+            condiciones ambientales </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Enciende las luces del vehículo y verifica que ningún otro
+            elemento o equipo del vehículo que consuma energía esté encendido. <br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Sigue las instrucciones indicadas por el software.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza la inspección previa del vehículo mediante la lista de
+            chequeo desplegada y verifica las condiciones de realización de la
+            prueba.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Existencias de fugas en el tubo, uniones del múltiple y
+            silenciador del sistema de escape del vehículo.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ausencia de tapones de aceite o fugas en el mismo.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Incorrecta operación del sistema de refrigeración.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Mide y registra correctamente el diámetro exterior del exhosto.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Sigue adecuadamente instrucciones para calcular las RPM gobernadas</td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Introduce sonda de muestreo cumpliendo con lo establecido en
+            normas e instructivos ( en exhosto de doble salida el que más humé)
+          </td>
+          <td colspan="3"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Realiza la toma de muestra de acuerdo a las instrucciones del
+            aplicativo.<br>
+          </td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4">
+            <center><b> R<br>
+                U<br>
+                I<br>
+                D<br>
+                O<br>
+                S<br>
+              </b> </center>
+          </td>
+          <td colspan="4"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica correctamente el sensor de revoluciones</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ubica el sonómetro a la distancia, altura y ángulo correcto</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Hace uso adecuado y sigue las instrucciones del software</td>
+          <td colspan="3"><br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5"><br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5">
+            <center><b>CONCEPTO Y OBSERVACIONES DE LA SUPERVISIÓN</b></center>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5"> <br>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3" align="right">Mantiene la competencia para
+            inspeccionar</td>
+          <td><br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <div style="left: 1649px; top: 339px; height: 1554px;"></div>
+  </body>
+</html>

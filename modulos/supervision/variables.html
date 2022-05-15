@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>VARIABLES</title>
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+</head>
+<body>
+<center>
+<table border="1" width="70%">
+	<tr>
+			<td><b>NOMBRE VARIABLES - SUPERVISION</b></td>
+			<td><center><b>HTML</b></center></td>
+			<td><center><b>PHP</b></center></td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>PRE - INSPECCION</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Fecha</td>
+		<td>val1_form</td>
+		<td>$v1_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Hora : inicio</td>
+		<td>val2i_form</td>
+		<td>$v2i_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Hora : fin</td>
+		<td>val2f_form</td>
+		<td>$v2f_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Director Técnico</td>
+		<td>val3_form</td>
+		<td>$v3_sv_datos</td>
+	</tr>
+	<tr>3
+		<td>Técnico y/o Recepcionista</td>
+		<td>val4_form</td>
+		<td>$v4_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Firma Director Técnico</td>
+		<td>val5_form</td>
+		<td>$v5_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Firma Recepcionista</td>
+		<td>val6_form</td>
+		<td>$v6_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Placa</td>
+		<td>val7_form</td>
+		<td>$v7_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Tipo</td>
+		<td>val8_form</td>
+		<td>$v8_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Categoria</td>
+		<td>val9_form</td>
+		<td>$v9_sv_datos</td>
+	</tr>
+	<tr>
+		<td>Observaciones</td>
+		<td>val10_form</td>
+		<td>$v10_sv_datos</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>CRITERIOS</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Uso y manejo del vehiculo como propiedad del cliente</td>
+		<td>val1</td>
+		<td>$v1_sv
+	</tr>
+	<tr>
+		<td>Uso adecuado de elementos de protección personal (seguridad)</td>
+		<td>val2</td>
+		<td>$v2_sv</td>
+	</tr>
+	<tr>
+		<td>5. El vehículo cumple con las condiciones de PRE-REVISION - Numeral 5 de la NTC 5375:2012 (Vacio, sin tapacubos, limpio y alarma desactivada)</td>
+		<td>val3</td>
+		<td>$v3_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica presión de inflado de llantas según instructivo</td>
+		<td>val4</td>
+		<td>$4_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica el ingreso de informacion referente del vehiculo</td>
+		<td>val5</td>
+		<td>$v5_sv</td>
+	</tr>
+	<tr>
+		<td>Suministra toda la información al cliente respecto a la RTM y EC</td>
+		<td>val6</td>
+		<td>$v6_sv</td>
+	</tr>
+	<tr>
+		<td>El vehículo es trasladado de forma adecuada al área de REVISION</td>
+		<td>val7</td>
+		<td>$v7_sv</td>
+	</tr>
+	<tr>
+		<td>Utiliza de forma adecuada la Tablet </td>
+		<td>val8</td>
+		<td>$v8_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>VISUAL</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Ubicación adecuada del vehículo en el foso (Centrado y acorde a las líneas guía)</td>
+		<td>val9</td>
+		<td>$v9_sv</td>
+	</tr>
+	<tr>
+		<td>NTC 5385 4.16.1.6..Utilización correcta y oportuna de la TABLET (Registro Inmediato de los defectos y fotos)</td>
+		<td>val10</td>
+		<td>$v10_sv</td>
+	</tr>
+	<tr>
+		<td>Utilización de la linterna. (Uso)</td>
+		<td>val11</td>
+		<td>$v11_sv</td>
+	</tr>
+	<tr>
+		<td>Movimientos cortos y repetidos del detector de holguras (electro-bomba) </td>
+		<td>val12</td>
+		<td>$v12_sv</td>
+	</tr>
+	<tr>
+		<td>Uso y manejo adecuado del profundímetro (puesta a cero, ubicación y registro ) </td>
+		<td>val13</td>
+		<td>$v13_sv</td>
+	</tr>
+	<tr>
+		<td>Uso y manejo del vehículo como propiedad del cliente </td>
+		<td>val14</td>
+		<td>$v14_sv</td>
+	</tr>
+	<tr>
+		<td>6.1.1 Carrocería y Chasís </td>
+		<td>val15</td>
+		<td>$v15_sv</td>
+	</tr>
+	<tr>
+		<td>6.1.2 Limpiaparabrisas </td>
+		<td>val16</td>
+		<td>$v16_sv</td>
+	</tr>
+	<tr>
+		<td>6.1.3 peldaños </td>
+		<td>val17</td>
+		<td>$v17_sv</td>
+	</tr>
+	<tr>
+		<td>6.1.4 Retrovisores </td>
+		<td>val18</td>
+		<td>$v18_sv</td>
+	</tr>
+	<tr>
+		<td>6.1.5. Soporte Exterior de La Rueda de Repuesto</td>
+		<td>val19</td>
+		<td>$v19_sv</td>
+	</tr>
+	<tr>
+		<td>6.1.6 Vidrios </td>
+		<td>val20</td>
+		<td>$v20_sv</td>
+	</tr>
+	<tr>
+		<td>6.1.7 Dispositivos de retención de la carga</td>
+		<td>val21</td>
+		<td>$v21_sv</td>
+	</tr>
+	<tr>
+		<td>6.2.1 Habitáculo del conductor y pasajeros </td>
+		<td>val22</td>
+		<td>$v22_sv</td>
+	</tr>
+	<tr>
+		<td>6.2.2 Cinturones de seguridad y sus anclajes </td>
+		<td>val23</td>
+		<td>$v23_sv</td>
+	</tr>
+	<tr>
+		<td>6.2.3 Dispositivo de control de velocidad </td>
+		<td>val24</td>
+		<td>$v24_sv</td>
+	</tr>
+	<tr>
+		<td>6.3.1 Dispositivos sonoros no permitidos</td>
+		<td>val25</td>
+		<td>$v25_sv</td>
+	</tr>
+	<tr>
+		<td>6.3.2 Bocina, pito o dispositivo acústico </td>
+		<td>val26</td>
+		<td>$v26_sv</td>
+	</tr>
+	<tr>
+		<td>6.4.1 Alumbrado y señalización (mediante inspección sensorial se busca detectar) </td>
+		<td>val27</td>
+		<td>$v27_sv</td>
+	</tr>
+	<tr>
+		<td>6.5. Salida de Emergencia, (Res. 5666 del 2003) </td>
+		<td>val28</td>
+		<td>$v28_sv</td>
+	</tr>
+	<tr>
+		<td>6.6. Emisiones Contaminantes (NTC 4231 Diésel), (NTC 4983 Gasolina) Y (Res. 910 del 2008) </td>
+		<td>val29</td>
+		<td>$v29_sv</td>
+	</tr>
+	<tr>
+		<td>6.6.3. Tubo de descarga horizontal (superior a 3 ton ó 19 pasajeros), Debe 3 metros del suelo en modelos anterior 2001 </td>
+		<td>val30</td>
+		<td>$v30_sv</td>
+	</tr>
+	<tr>
+		<td>6.6.4 Roturas o perforaciones en el sistema de escape </td>
+		<td>val31</td>
+		<td>$v31_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>FRENOS VISUAL</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>6.7.1. Pedal</td>
+		<td>val32</td>
+		<td>$v32_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.2. Guayas</td>
+		<td>val33</td>
+		<td>$v33_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.3. Bomba de vacío (Booster) o compresor y anclajes - (Aplica para vehículos con circuito neumático para el sistema de frenado). </td>
+		<td>val34</td>
+		<td>$v34_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.4. Válvula de regulación del freno de estacionamiento (parqueo o de mano) - Aplica para vehículos con circuito neumático para el sistema de frenado). </td>
+		<td>val35</td>
+		<td>$v35_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.5. Válvulas de frenado - (Aplica para vehículos con circuito neumático para el sistema de frenado). </td>
+		<td>val36</td>
+		<td>$v36_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.6.Tanques o depósitos de presión - (Aplica para vehículos con circuito neumático para el sistema de frenado) </td>
+		<td>val37</td>
+		<td>$v37_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.7. Acoplamiento de los frenos de la unidad tractora</td>
+		<td>val38</td>
+		<td>$v38_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.8. Servofreno (Booster). Cilindro de mando (sistemas hidráulicos) </td>
+		<td>val39</td>
+		<td>$v39_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.9. Tubos y mangueras de frenos </td>
+		<td>val40</td>
+		<td>$v40_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.10. Cilindros del sistema de frenado </td>
+		<td>val41</td>
+		<td>$v41_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.11. Válvula que permite o limite el frenado y válvula censora o compensadora de carga o la que haga sus veces (de estar presente) </td>
+		<td>val42</td>
+		<td>$v42_sv</td>
+	</tr>
+	<tr>
+		<td>6.7.12. Condiciones a medir (presión de llantas, labrado, antibloqueo, control de tracción, tracción integral mecánica.</td>
+		<td>val43</td>
+		<td>$v43_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>SUSPENSION VISUAL</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>6.8.1. Mediante inspección sensorial y detector de holguras</td>
+		<td>val44</td>
+		<td>$v44_sv</td>
+	</tr>
+	<tr>
+		<td>6.10.1. Dirección</td>
+		<td>val45</td>
+		<td>$v45_sv</td>
+	</tr>
+	<tr>
+		<td>6.10.2. Uso de equipo de desviación Lateral</td>
+		<td>val46</td>
+		<td>$v46_sv</td>
+	</tr>
+	<tr>
+		<td>6.11 Rines y Llantas</td>
+		<td>val47</td>
+		<td>$v47_sv</td>
+	</tr>
+	<tr>
+		<td>6.12. Motor</td>
+		<td>val48</td>
+		<td>$v48_sv</td>
+	</tr>
+	<tr>
+		<td>6.13. Sistema de Combustible</td>
+		<td>val49</td>
+		<td>$v49_sv</td>
+	</tr>
+	<tr>
+		<td>6.14. Transmisión</td>
+		<td>val50</td>
+		<td>$v50_sv</td>
+	</tr>
+	<tr>
+		<td>Placas En vehículos de servicio público (resolución 2999 del 2003)</td>
+		<td>val51</td>
+		<td>$v51_sv</td>
+	</tr>
+	<tr>
+		<td>Uso obligatorio de Cintas Retrarreflectivas (Resolución 3246 del 2018)</td>
+		<td>val52</td>
+		<td>$v52_sv</td>
+	</tr>
+	<tr>
+		<td>Requisitos vehículos de Enseñanza NTC 5375 ANEXO a (Res 3245 del 2009) </td>
+		<td>val53</td>
+		<td>$v53_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>PRUEBA DE FRENOS</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Alinea correctamente el vehículo usando las líneas guía</td>
+		<td>val54</td>
+		<td>$v54_sv</td>
+	</tr>
+	<tr>
+		<td>Detiene totalmente el vehículo al borde del plato de alineación</td>
+		<td>val55</td>
+		<td>$v55_sv</td>
+	</tr>
+	<tr>
+		<td>Inicia y configura el aplicativo de software de manera adecuada</td>
+		<td>val56</td>
+		<td>$v56_sv</td>
+	</tr>
+	<tr>
+		<td>Pasa sobre el plato de alineación a velocidad no superior a 2KM/h </td>
+		<td>val57</td>
+		<td>$v57_sv</td>
+	</tr>
+	<tr>
+		<td>Suelta el volante durante el paso sobre el plato de alineación</td>
+		<td>val58</td>
+		<td>$v58_sv</td>
+	</tr>
+	<tr>
+		<td>Graba y envía la prueba de alineación mediante el adecuado uso del control remoto</td>
+		<td>val59</td>
+		<td>$v59_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que la presión de llantas sea adecuada para la prueba</td>
+		<td>val60</td>
+		<td>$v60_sv</td>
+	</tr>
+	<tr>
+		<td>Verificar que el labrado cumple para iniciar la prueba de frenos (1.6.mm hasta 3.5 ton y 2mm después)</td>
+		<td>val61</td>
+		<td>$v61_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que no exista carga en el frenómetro al dar inicio al programa</td>
+		<td>val62</td>
+		<td>$v62_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que los frenos estén secos</td>
+		<td>val63</td>
+		<td>$v63_sv</td>
+	</tr>
+	<tr>
+		<td>Inicia y configura el aplicativo de software de manera adecuada</td>
+		<td>val64</td>
+		<td>$v64_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza la prueba de frenos con el motor encendido para garantizar que el pulmón del servofreno esté cargado.</td>
+		<td>val65</td>
+		<td>$v65_sv</td>
+	</tr>
+	<tr>
+		<td>Ingresa al frenómetro de manera controlada, protegiendo la propiedad del cliente y el equipo</td>
+		<td>val66</td>
+		<td>$v66_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica el eje delantero del vehículo centrado en los rodillos</td>
+		<td>val67</td>
+		<td>$v67_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que la presión del aire en el manómetro del vehículo (mínimo 90 PSI). Para el caso de los frenos de aire.</td>
+		<td>val68</td>
+		<td>$v68_sv</td>
+	</tr>
+	<tr>
+		<td>La pisada de frenado es lenta, continua y hasta que el pedal llegue al final de su recorrido</td>
+		<td>val69</td>
+		<td>$v69_sv</td>
+	</tr>
+	<tr>
+		<td>Graba y envía la prueba del eje delantero de manera correcta</td>
+		<td>val70</td>
+		<td>$v70_sv</td>
+	</tr>
+	<tr>
+		<td>Ingresa el segundo eje del vehículo al frenómetro de manera controlada, protegiendo la propiedad del cliente y el equipo</td>
+		<td>val71</td>
+		<td>$v71_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica el eje trasero del vehículo centrado en los rodillos</td>
+		<td>val72</td>
+		<td>$v72_sv</td>
+	</tr>
+	<tr>
+		<td>La pisada de frenado es lenta, continua y hasta que el pedal llegue  al final de su recorrido</td>
+		<td>val73</td>
+		<td>$v73_sv</td>
+	</tr>
+	<tr>
+		<td>Graba y envía la prueba del eje delantero de manera correcta </td>
+		<td>val74</td>
+		<td>$v74_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza la prueba del freno de parqueo, activando el freno de parqueo muy lentamente y aumentando la fuerza aplicada hasta que la palanca ó el pedal lleguen al final de su recorrido</td>
+		<td>val75</td>
+		<td>$v75_sv</td>
+	</tr>
+	<tr>
+		<td>Nota: Cuando se trata de un vehículo con tracción integral permanente 4WD, el técnico configura y utiliza el equipo de manera adecuada.</td>
+		<td>val76</td>
+		<td>$v76_sv</td>
+	</tr>
+	<tr>
+		<td>Graba y envía toda la prueba de manera correcta</td>
+		<td>val77</td>
+		<td>$v77_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>PRUEBA DE LUCES</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Verifica que los faros se encuentren limpios y secos previo inicio de la prueba </td>
+		<td>val78</td>
+		<td>$v78_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica el vehículo de forma adecuada paralela y perpendicularmente utilizando las líneas guía.</td>
+		<td>val79</td>
+		<td>$v79_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica el luxómetro a la distancia establecida por el fabricante utilizando el flexómetro de manera correcta</td>
+		<td>val80</td>
+		<td>$v80_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que el luxómetro esté nivelado mediante la observación del nivel.</td>
+		<td>val81</td>
+		<td>$v81_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica la simetría utilizando el haz de luz roja y hace correctamente los ajustes necesarios </td>
+		<td>val82</td>
+		<td>$v82_sv</td>
+	</tr>
+	<tr>
+		<td>Hace uso correcto y configura adecuadamente el software para la realización de la prueba</td>
+		<td>val83</td>
+		<td>$v83_sv</td>
+	</tr>
+	<tr>
+		<td>Incluye de ser necesario la cantidad de luces adicionales con que cuente el vehículo que pueden estar encendidas al mismo tiempo y que pueden afectar la sumatoria total de luces</td>
+		<td>val84</td>
+		<td>$v84_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que el motor esté encendido, y el vehículo esté en neutro y con el freno de parqueo activado </td>
+		<td>val85</td>
+		<td>$v85_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica correctamente la luz láser en el centro de la farola y centro del bombillo </td>
+		<td>val86</td>
+		<td>$v86_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza la prueba de luces de acuerdo a las instrucciones del aplicativo</td>
+		<td>val87</td>
+		<td>$v87_sv</td>
+	</tr>
+	<tr>
+		<td>Registra los resultados de la prueba adecuadamente </td>
+		<td>val88</td>
+		<td>$v88_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>PRUEBA DE SUSPENSION</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Verifica que el equipo no presente carga previa realización de la prueba.</td>
+		<td>val89</td>
+		<td>$v89_sv</td>
+	</tr>
+	<tr>
+		<td>Alinea el vehículo paralelamente a las líneas guía</td>
+		<td>val90</td>
+		<td>$v90_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza correcto ingreso y configuración del aplicativo para realización de la prueba. </td>
+		<td>val91</td>
+		<td>$v91_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica el vehículo sobre las placas de manera correcta  </td>
+		<td>val92</td>
+		<td>$v92_sv</td>
+	</tr>
+	<tr>
+		<td>Sigue las instrucciones de ejecución de la prueba del software</td>
+		<td>val93</td>
+		<td>$v93_sv</td>
+	</tr>
+	<tr>
+		<td>Registra y envía los resultados de la prueba de manera adecuada en el software</td>
+		<td>val94</td>
+		<td>$v94_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>GASES NTC 4983</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Realiza limpieza del equipo de manera adecuada </td>
+		<td>val95</td>
+		<td>$v95_sv</td>
+	</tr>
+	<tr>
+		<td>Ingresa al aplicativo y verifica en el mismo el estado de puesta a cero, test de fugas y calibración </td>
+		<td>val96</td>
+		<td>$v96_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que el termo higrómetro esté en línea y se verifiquen las condiciones ambientales (temperatura 5 C° Y 55C°) y humedad Relativa (30% y 90%) </td>
+		<td>val97</td>
+		<td>$v97_sv</td>
+	</tr>
+	<tr>
+		<td>Ejecuta auto-cero del equipo verificando que todo el conjunto de mangueras, trampa y sonda toma de muestra se encuentren debidamente conectados </td>
+		<td>val98</td>
+		<td>$v98_sv</td>
+	</tr>
+	<tr>
+		<td>Ejecuta el test de fugas cuando es necesario de acuerdo a las instrucciones</td>
+		<td>val99</td>
+		<td>$v99_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza correctamente la calibración con gas asegurando que se utilicen las pipetas registradas y siguiendo las instrucciones del aplicativo y demás contenidas en procedimientos</td>
+		<td>val100</td>
+		<td>$v100_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica el estado de sondas y filtros</td>
+		<td>val101</td>
+		<td>$v101_sv</td>
+	</tr>
+	<tr>
+		<td>Posiciona el vehículo de forma adecuada, en neutro y con freno de parqueo</td>
+		<td>val102</td>
+		<td>$v102_sv</td>
+	</tr>
+	<tr>
+		<td>Enciende las luces del vehículo y verifica que ningún otro elemento o equipo del vehículo que consuma energía esté encendido.</td>
+		<td>val103</td>
+		<td>$v103_sv</td>
+	</tr>
+	<tr>
+		<td>Una vez “capturada” la placa del vehículo, realiza una inspección previa del vehículo y mediante la lista de chequeo desplegada verifica las condiciones de realización de la prueba.</td>
+		<td>val104</td>
+		<td>$v104_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica de forma correcta los sensores de relanti rpm (400 r/min-1100r/min (+/-150) en crucero a 2500 rpm +/-250)  y temperatura mínima (45 C° bloque ó 60 C° aceite en puntos adecuados del vehículo)</td>
+		<td>val105</td>
+		<td>$v105_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza de manera correcta la prueba de gases siguiendo las instrucciones del software</td>
+		<td>val106</td>
+		<td>$v106_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>OPACIDAD NTC 4231</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Verifica que el termo higrómetro esté en línea y se verifiquen las condiciones ambientales (temperatura 5 C° y 55C°) y humedad Relativa menor a 90%) </td>
+		<td>val107</td>
+		<td>$v107_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza limpieza del equipo de manera adecuada </td>
+		<td>val108</td>
+		<td>$v108_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica precalentamiento del opacímetro </td>
+		<td>val109</td>
+		<td>$v109_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica de forma correcta los sensores de rpm y temperatura 50C° optima, si menor no debe variar 10C°inicio y fin en (puntos adecuados del vehículo) </td>
+		<td>val110</td>
+		<td>$v110_sv</td>
+	</tr>
+	<tr>
+		<td>Verifica que el termo higrómetro esté en línea y se verifiquen las condiciones ambientales </td>
+		<td>val111</td>
+		<td>$v111_sv</td>
+	</tr>
+	<tr>
+		<td>Enciende las luces del vehículo y verifica que ningún otro elemento o equipo del vehículo que consuma energía esté encendido. </td>
+		<td>val112</td>
+		<td>$v112_sv</td>
+	</tr>
+	<tr>
+		<td>Sigue las instrucciones indicadas por el software.</td>
+		<td>val113</td>
+		<td>$v113_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza la inspección previa del vehículo mediante la lista de chequeo desplegada y verifica las condiciones de realización de la prueba.</td>
+		<td>val114</td>
+		<td>$v114_sv</td>
+	</tr>
+	<tr>
+		<td>Existencias de fugas en el tubo, uniones del múltiple y silenciador del sistema de escape del vehículo.</td>
+		<td>val115</td>
+		<td>$v115_sv</td>
+	</tr>
+	<tr>
+		<td>Ausencia de tapones de aceite o fugas en el mismo.</td>
+		<td>val116</td>
+		<td>$v116_sv</td>
+	</tr>
+	<tr>
+		<td>Incorrecta operación del sistema de refrigeración.</td>
+		<td>val117</td>
+		<td>$v117_sv</td>
+	</tr>
+	<tr>
+		<td>Mide y registra correctamente el diámetro exterior del exhosto.</td>
+		<td>val118</td>
+		<td>$v118_sv</td>
+	</tr>
+	<tr>
+		<td>Sigue adecuadamente instrucciones para calcular las RPM gobernadas</td>
+		<td>val119</td>
+		<td>$v119_sv</td>
+	</tr>
+	<tr>
+		<td>Introduce sonda de muestreo cumpliendo con lo establecido en normas e instructivos ( en exhosto de doble salida el que más humé) </td>
+		<td>val120</td>
+		<td>$v120_sv</td>
+	</tr>
+	<tr>
+		<td>Realiza la toma de muestra de acuerdo a las instrucciones del aplicativo.</td>
+		<td>val121</td>
+		<td>$v121_sv</td>
+	</tr>
+		<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b><br></b>
+			</center>
+		</td>
+		
+	</tr>
+	<tr>
+		<td>ANEXO A - Adaptaciones vehículos de enseñanza </td>
+		<td>val122</td>
+		<td>$v122_sv</td>
+	</tr>
+	<tr>
+		<td>ANEXO B - 3ra placa vehículos públicos</td>
+		<td>val123</td>
+		<td>$v123_sv</td>
+	</tr>
+	</tr>
+		<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b>RUIDOS NTC 4194</b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Ubica correctamente el sensor de revoluciones</td>
+		<td>val124</td>
+		<td>$v124_sv</td>
+	</tr>
+	<tr>
+		<td>Ubica el sonómetro a la distancia, altura y ángulo correcto</td>
+		<td>val125</td>
+		<td>$v125_sv</td>
+	</tr>
+	<tr>
+		<td>Hace uso adecuado y sigue las instrucciones del software</td>
+		<td>val126</td>
+		<td>$v126_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="e2e2e2">
+			<center>
+			<b><br></b>
+			</center>
+		</td>
+	</tr>
+	<tr>
+		<td>Mantiene la competencia para inspeccionar</td>
+		<td>val127</td>
+		<td>$v127_sv</td>
+	</tr>
+	<tr>
+		<td>El Inspector Técnico esta deacuerdo con la calificación evaluada?</td>
+		<td>val128</td>
+		<td>$v128_sv</td>
+	</tr>
+	<tr>
+		<td>RESULTADOS DE LA SUPERVISIÓN</td>
+		<td>val129</td>
+		<td>$v129_sv</td>
+	</tr>
+	<tr>
+		<td colspan="3" bgcolor="GREEN">
+			<center>
+			<b><br></b>
+			</center>
+		</td>	
+	</tr>
+</table>
+</center>
+<br><br>
+
+</body>
+</html>
